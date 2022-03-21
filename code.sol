@@ -14,7 +14,7 @@ contract NFTSportsMarketplace is ERC721Enumerable,Ownable
 {
     using Counters for Counters.Counter;
     Counters.Counter private  ItemsSold ; // Total Items Sold till now 
-    uint256 public  TotalItems = 10 ; // Total number of NFTS Items 
+    uint256 public  constant  TotalItems = 7 ; // Total number of NFTS Items 
 
    string BaseURI ;
 
